@@ -26,7 +26,7 @@ jobs:
     steps:
     - name: Create directory structure
       run: |
-        echo $(pwd)
+        pwd
         mkdir artifacts
         
     - name: To download artifact 
