@@ -27,6 +27,7 @@ jobs:
     - name: To download artifact 
       uses: actions/download-artifact@v4
       with:
+        name: hello.txt
         path: ./artifacts
     - name: Check the artifact content
       run: |
