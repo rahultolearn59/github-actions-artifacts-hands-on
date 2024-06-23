@@ -30,7 +30,5 @@ jobs:
         name: hello-artifact
         path: ./artifacts
     - name: Check the artifact content
-      run: |
-        ls -alR
-        cat ./artifacts/hello.txt
+      run: cat ./artifacts/hello.txt
       
