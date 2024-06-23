@@ -35,5 +35,7 @@ jobs:
         path: artifacts
 
     - name: Check the artifact content
-      run: cat ./artifacts/hello.txt
+      run: |
+        cd  $GITHUB_WORKSPACE
+        cat ./artifacts/hello.txt
       
